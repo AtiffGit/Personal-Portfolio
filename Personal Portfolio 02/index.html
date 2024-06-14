@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">A<span>t</span>if</a>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li><a href="#home" class="nav__link active-link">Home</a></li>
+              <li><a href="#about" class="nav__link">About</a></li>
+              <li><a href="#services" class="nav__link">Services</a></li>
+              <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+              <li><a href="#contact " class="nav__link">Contact</a></li>
+            </ul>
+
+            <div class="nav__close" id="nav-close"> 
+              <i class="ui uil-times">
+                
+              </i>
+            </div>
+          </div>
+
+
+          <div class="nav__socials">
+            <a href="www.facebook.com" target="_blank" class="nav__social-link">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+  
+            <a href="www.twitter.com" target="_blank" class="nav__social-link">
+              <i class="uil uil-twitter"></i>
+            </a>
+  
+            <a href="www.linkedin.com" target="_blank" class="nav__social-link">
+              <i class="uil uil-linkedin"></i>
+            </a>
+  
+            <a href="www.instagram.com" target="_blank" class="nav__social-link">
+              <i class="uil uil-instagram"></i>
+            </a>
+          </div>
+
+          <div class="nav__btns">
+            <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+            <div class="nav__toggle" id="nav-toggle">
+              <i class="uil uil-bars"></i>
+            </div>
+          </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">
+              Wellcome To My Portfolio
+            </span>
+            <h1 class="home__title">Hi,I Am Atif <span>Junior Developer.</span> Based in Hyderabad </h1>
+          </div>
+
+          <img src="assets/img/Image2.jpeg" alt="" class="home__img">
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/Image1.jpeg" alt="" class="about__img">
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem accusantium labore exercitationem modi ab eos facere, ipsum possimus expedita dolorem sequi, temporibus laboriosam reprehenderit quas velit quibusdam? Veritatis, excepturi aut?</p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active"  data-target="#skills">Main Skills</span>
+              <span class="tabs__btn" data-target="#experience">Experience</span>
+            </div>
+
+            <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>User Experience Design</span> - UI/IX 
+                    <span>Delight the user and make it work.</span>
+                  </p>   
+
+                  <p class="tabs__description">
+                    <span>A Junior Developer</span> - Frontend Expert. 
+                    <span>I Made Everthing for You</span>
+                  </p>    
+            </div>
+          </div>
+
+          <div class="tabs__item" data-content id="experience">
+            <div class="tabs__data grid">
+              <p class="tabs__description">
+                <span>Designer Since 5year </span> : Expert in UI/IX. 
+                <span>Complete Many Projects.</span>
+              </p>   
+
+              <p class="tabs__description">
+                <span>Developer Since 1year </span> : Expert In Frontend Design. 
+                <span>Complete Few Pojects And Comfort With clients</span>
+              </p>    
+        </div>
+      </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Awesome Services</h2>
+        <p class="section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatem ea unde reprehenderit </p>
+
+        <div class="services__container container grid"> 
+          <div class="services__item">
+            <i class="uil uil-rss-interface services__icon"></i>
+
+            <h3 class="services__title">Business Startegy</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dicta itaque impedit!</p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-layer-group services__icon"></i>
+
+            <h3 class="services__title">Website Development</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dicta itaque impedit!</p>
+          </div>
+
+
+          <div class="services__item">
+            <i class="uil uil-users-alt services__icon"></i>
+
+            <h3 class="services__title">Marketing</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dicta itaque impedit!</p>
+          </div>
+        </div>
+
+        
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Last Project</h2>
+        <p class="section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corporis atque voluptate!</p>
+
+
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-1.jpg" class="portfolio__img" alt="">
+
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Web Design</h3>
+              <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-2.jpg" class="portfolio__img" alt="">
+
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Design</p>
+              <h3 class="portfolio__title">UI/UX Design</h3>
+              <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-3.jpg" class="portfolio__img" alt="">
+
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Logo Design</p>
+              <h3 class="portfolio__title">Photoshop Design</h3>
+              <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-4.jpg" class="portfolio__img" alt="">
+
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Web Design</p>
+              <h3 class="portfolio__title">Website Design</h3>
+              <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-5.jpg" class="portfolio__img" alt="">
+
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Application</p>
+              <h3 class="portfolio__title">App Design</h3>
+              <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-6.jpg" class="portfolio__img" alt="">
+
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Logo Design</p>
+              <h3 class="portfolio__title">Graphic Designer</h3>
+              <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+          <div class="contact__container container grid">
+            <div class="contact__content">
+              <h2 class="section__title">Hire Me</h2>
+
+              <p class="contact__description">I am available for freelance work. Connect with me via phone : <a href="tel:+03133759493">03133759493</a> or email : <a href=" mailto:atif41616@gmail.com"> atif41616@gmail.com</a></p>
+
+              <form action="" id="contact-form" class="contact__form">
+                <div class="contact__form-input">
+                  <input type="text" name="name" placeholder="Your Name " id="contact-name" class="contact__input">
+                </div>
+
+                <div class="contact__form-input">
+                  <input type="email" name="email" placeholder="Your e-mail" id="contact-email" class="contact__input">
+                </div>
+
+                <div class="contact__form-input">
+                  <input type="text" name="subject" placeholder="Write a Subject" id="contact-subject" class="contact__input">
+                </div>
+
+                <div class="contact__form-input">
+                 <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea>
+                </div>
+
+                <input type="submit" value="Submit" class="btn">
+
+                <p class="error__message" id="error-message"></p>
+              </form>
+            </div>
+
+            <img src="assets/img/Image1.jpeg" alt="" class="contact__img">
+          </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">A<span>t</span>if</a>
+
+        <div class="footer__socials">
+          <a href="www.facebook.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="www.twitter.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a href="www.linkedin.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a href="www.instagram.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright"> &copy; 2023. All right reserved.</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" id="scroll-up" class="scrollup">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> 
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
